@@ -57,6 +57,7 @@ Lis [CONTRIBUTING.md](CONTRIBUTING.md) : une issue, une branche, une Pull Reques
 
 ## Équipe
 
+| role | name | @ github |
 | Chef de Projet | Arthur Maure | @arthurmaurecoda |
 | --- | --- | --- |
 
