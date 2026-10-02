@@ -59,6 +59,7 @@ Lis [CONTRIBUTING.md](CONTRIBUTING.md) : une issue, une branche, une Pull Reques
 
 | Rôle | Nom | GitHub |
 | --- | --- | --- |
+|Devellopeur|Pierre|@Pierre97228|
 
 ## Licence
 
