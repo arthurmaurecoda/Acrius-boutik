@@ -57,7 +57,7 @@ Lis [CONTRIBUTING.md](CONTRIBUTING.md) : une issue, une branche, une Pull Reques
 
 ## Équipe
 
-| Chef de Projet | Arthur Maure | arthurmaurecoda |
+| Chef de Projet | Arthur Maure | @arthurmaurecoda |
 | --- | --- | --- |
 
 ## Licence
