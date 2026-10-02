@@ -57,9 +57,11 @@ Lis [CONTRIBUTING.md](CONTRIBUTING.md) : une issue, une branche, une Pull Reques
 
 ## Équipe
 
-| Rôle | Nom | GitHub |
+| Chef de Projet | Arthur Maure | arthurmaurecoda |
 | --- | --- | --- |
-|Dev|Depeyrot|@Ristars|
+| Sous-chef de projet | Ethan Hemmerle | @Silver-u3
+|Devellopeur|Pierre|@Pierre97228|
+|Devellopeur|Depeyrot|@Ristars|
 
 ## Licence
 
