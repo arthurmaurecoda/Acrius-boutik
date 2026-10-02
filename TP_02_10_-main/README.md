@@ -66,7 +66,7 @@ Lis [CONTRIBUTING.md](CONTRIBUTING.md) : une issue, une branche, une Pull Reques
 |Develloppeur|Alassane sylla|@alasssylla|
 |Develloppeur|Julien|@Julien99Ju|
 |Develloppeur|Swen|@linke-999|
-
+| Dev | Aissa | @Whysnip |
 ## Licence
 
 [MIT](LICENSE)
