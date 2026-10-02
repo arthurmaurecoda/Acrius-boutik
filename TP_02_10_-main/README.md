@@ -59,9 +59,10 @@ Lis [CONTRIBUTING.md](CONTRIBUTING.md) : une issue, une branche, une Pull Reques
 
 | Chef de Projet | Arthur Maure | @arthurmaurecoda |
 | --- | --- | --- |
-| Sous-chef de projet | Ethan Hemmerle | @Silver-u3
+|Sous-chef de projet|Ethan Hemmerle|@Silver-u3|
 |Devellopeur|Pierre|@Pierre97228|
 |Devellopeur|Depeyrot|@Ristars|
+|Devellopeur|Alassane sylla|@alasssylla|
 
 ## Licence
 
