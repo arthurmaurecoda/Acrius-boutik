@@ -60,6 +60,8 @@ Lis [CONTRIBUTING.md](CONTRIBUTING.md) : une issue, une branche, une Pull Reques
 | Rôle | Nom | GitHub |
 | --- | --- | --- |
 | Dev | Aissa | @Whysnip|
+| --- | --- | --- |
+
 
 ## Licence
 
