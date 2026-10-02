@@ -1,9 +1,16 @@
 """Catalogue : chargement, recherche et affichage des produits."""
 
 import csv
+import unicodedata
 from pathlib import Path
 
 DEFAULT_PATH = Path(__file__).resolve().parent.parent / "data" / "products.csv"
+
+
+def normalize(text):
+    """Met en minuscules et retire les accents (« Écran » -> « ecran »)."""
+    text = unicodedata.normalize("NFD", text.casefold())
+    return "".join(c for c in text if unicodedata.category(c) != "Mn")
 
 
 def load_products(path=DEFAULT_PATH):
@@ -30,11 +37,14 @@ def find_product(products, product_id):
 
 
 def search(products, text):
-    """Renvoie les produits dont le nom contient le texte recherché."""
-    return [p for p in products if text in p["name"]]
+    """Renvoie les produits dont le nom contient le texte recherché,
+    sans tenir compte des majuscules ni des accents."""
+    text = normalize(text.strip())
+    return [p for p in products if text in normalize(p["name"])]
 
 
 # TODO (mission F3) : ajouter ici la fonction filter_by_category(products, category)
+# Astuce : comparer avec normalize(p["category"]) == normalize(category)
 
 
 def categories(products):

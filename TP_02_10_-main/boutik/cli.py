@@ -1,4 +1,4 @@
-"""Interface en ligne de commande de Boutik."""
+# """Interface en ligne de commande de Boutik."""
 
 from boutik import __version__
 from boutik import cart as panier
@@ -6,14 +6,14 @@ from boutik import catalog, invoice, pricing, stock
 
 
 def show_products(products, cart):
-    """Affiche une liste de produits."""
+  #  """Affiche une liste de produits."""
     for p in products:
         prix = invoice.format_price(pricing.price_ttc(p["price_ht"]))
         print(f"  [{p['id']}] {p['name']} : {prix} (stock : {p['stock']})")
 
 
 def do_search(products, cart):
-    """Recherche un produit par son nom."""
+   # """Recherche un produit par son nom."""
     text = input("Rechercher : ").strip()
     results = catalog.search(products, text)
     if not results:
@@ -22,7 +22,7 @@ def do_search(products, cart):
 
 
 def do_add(products, cart):
-    """Ajoute un produit au panier."""
+    #"""Ajoute un produit au panier."""
     product_id = int(input("Identifiant du produit : "))
     product = catalog.find_product(products, product_id)
     if product is None:
@@ -37,14 +37,14 @@ def do_add(products, cart):
 
 
 def do_remove(products, cart):
-    """Retire un produit du panier."""
+ # ""  """Retire un produit du panier."""
     product_id = int(input("Identifiant du produit à retirer : "))
     panier.remove_from_cart(cart, product_id)
     print("Produit retiré.")
 
 
 def show_cart(products, cart):
-    """Affiche le contenu du panier."""
+   # """Affiche le contenu du panier."""
     if not cart:
         print("Panier vide.")
         return
@@ -52,7 +52,7 @@ def show_cart(products, cart):
 
 
 def checkout(products, cart):
-    """Valide la commande : facture, paiement et mise à jour du stock."""
+   # """Valide la commande : facture, paiement et mise à jour du stock."""
     if not cart:
         print("Panier vide.")
         return
@@ -87,7 +87,7 @@ MENU = [
 
 
 def run():
-    """Lance la boutique."""
+  #  """Lance la boutique."""
     products = catalog.load_products()
     cart = {}
     print(f"Bienvenue chez Boutik v{__version__} !")
