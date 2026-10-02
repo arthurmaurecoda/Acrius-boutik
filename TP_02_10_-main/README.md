@@ -61,7 +61,7 @@ Lis [CONTRIBUTING.md](CONTRIBUTING.md) : une issue, une branche, une Pull Reques
 | --- | --- | --- |
 | Sous-chef de projet | Ethan Hemmerle | @Silver-u3
 |Devellopeur|Pierre|@Pierre97228|
-
+|Devellopeur|Depeyrot|@Ristars|
 
 ## Licence
 
