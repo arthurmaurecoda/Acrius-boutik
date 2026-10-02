@@ -59,7 +59,7 @@ Lis [CONTRIBUTING.md](CONTRIBUTING.md) : une issue, une branche, une Pull Reques
 
 | Rôle | Nom | GitHub |
 | --- | --- | --- |
-
+| développeur |Alassane sylla | alasssylla |
 ## Licence
 
 [MIT](LICENSE)
