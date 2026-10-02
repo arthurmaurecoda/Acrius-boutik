@@ -9,7 +9,7 @@ def format_price(amount):
     """Met en forme un montant en euros, avec 2 décimales : 5 -> '5.00 €'."""
     return f"{amount:.2f} €"
 
-
+#j'emmerde qnd il me dit pas que ca marche
 def build_invoice(cart, products):
     """Renvoie le texte de la facture du panier."""
     lines = ["========== FACTURE BOUTIK =========="]
