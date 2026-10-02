@@ -12,7 +12,7 @@ def load_products(path=DEFAULT_PATH):
     with open(path, encoding="utf-8") as f:
         for row in csv.DictReader(f):
             products.append({
-                "id": row["id"],
+                "id": int(row["id"]),
                 "name": row["name"],
                 "category": row["category"],
                 "price_ht": float(row["price_ht"]),
@@ -31,7 +31,8 @@ def find_product(products, product_id):
 
 def search(products, text):
     """Renvoie les produits dont le nom contient le texte recherché."""
-    return [p for p in products if text in p["name"]]
+    return [p for p in products if
+text.lower() in p["name"].lower()]
 
 
 # TODO (mission F3) : ajouter ici la fonction filter_by_category(products, category)

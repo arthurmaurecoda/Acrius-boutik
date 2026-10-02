@@ -59,7 +59,16 @@ Lis [CONTRIBUTING.md](CONTRIBUTING.md) : une issue, une branche, une Pull Reques
 
 | Rôle | Nom | GitHub |
 | --- | --- | --- |
-| dev | aissa | @aissa_test|
+
+|Chef de Projet|Arthur Maure|@arthurmaurecoda|
+|Sous-chef de projet|Ethan Hemmerle|@Silver-u3|
+|Developpeur|Pierre|@Pierre97228|
+|Develloppeur|Depeyrot|@Ristars|
+|Develloppeur|Alassane sylla|@alasssylla|
+|Develloppeur|Julien|@Julien99Ju|
+|Develloppeur|Swen|@linke-999|
+|Develloppeur|Aissa|@aissa_test|
+
 ## Licence
 
 [MIT](LICENSE)
