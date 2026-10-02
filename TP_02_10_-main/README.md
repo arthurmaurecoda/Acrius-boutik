@@ -59,7 +59,7 @@ Lis [CONTRIBUTING.md](CONTRIBUTING.md) : une issue, une branche, une Pull Reques
 
 | Rôle | Nom | GitHub |
 | --- | --- | --- |
-
+| dev | aissa | @aissa_test|
 ## Licence
 
 [MIT](LICENSE)
